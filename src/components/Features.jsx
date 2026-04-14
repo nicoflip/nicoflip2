@@ -11,7 +11,7 @@ const Features = () => {
             description: "Apportez une touche ludique et rétro à vos événements ! Nous installons des flippers, bornes d'arcade, et baby-foots directement sur le lieu de votre réception.",
             points: ["Installation et reprise incluses", "Matériel entretenu et fiable", "Formules week-end ou soirée"],
             icon: <CalendarCheck className="w-6 h-6" />,
-            image: "https://images.unsplash.com/photo-1574673647139-38b30f52dbb0?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/image1.jpg"
         },
         {
             id: 2,
@@ -20,7 +20,7 @@ const Features = () => {
             description: "Votre flipper a besoin d'une révision ? Nous assurons le dépannage et l'entretien de vos jeux de café, quelle que soit leur génération.",
             points: ["Diagnostic précis", "Remplacement de pièces d'usure", "Nettoyage et réglages"],
             icon: <Wrench className="w-6 h-6" />,
-            image: "https://images.unsplash.com/photo-1555617981-d419b7d8be0c?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/image2.jpg"
         },
         {
             id: 3,
@@ -29,7 +29,7 @@ const Features = () => {
             description: "Créez de la cohésion avec un tournoi de baby-foot ou de flipper ! Nous gérons l'animation de A à Z pour une expérience clé en main.",
             points: ["Animation micro", "Tableaux de scores", "Remise de trophées"],
             icon: <Trophy className="w-6 h-6" />,
-            image: "https://images.unsplash.com/photo-1518115598836-e8d1979b0241?q=80&w=1000&auto=format&fit=crop"
+            image: "/images/image3.jpg"
         }
     ];
 

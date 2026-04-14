@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import HomeGallery from './components/HomeGallery';
 import Catalog from './components/Catalog';
 import Features from './components/Features';
 import ContactForm from './components/ContactForm';
@@ -38,7 +37,6 @@ const Layout = ({ children }) => {
 const HomePage = () => (
   <>
     <Hero />
-    <HomeGallery />
     <Features />
   </>
 );
